@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +21,7 @@
                     <a href="#"> <img src="img/logo.png" alt=""></img></a>
                 </div>
                 <div class="header__content">
-                    <div class="header__btn"><a href="#">Become a Seller</a></div>
+                    <div class="header__btn"><a class="btn-link" href="#">Become a Seller</a></div>
                     <div class="header__icons">
                         <a href="#"><img src="img/alarm.png" alt=""></img></a>
                         <a href="#"><img src="img/envelope.png" alt=""></img></a>
@@ -45,8 +48,10 @@
                         </ul>
                     </div>
                     <div class="header__input">
-                        <input placeholder="Search product here..." type="text">
-                       <a href="#"><img src="img/magnifier.png" alt=""></a>
+                        <!-- <form action=""> -->
+                        <input placeholder="Search product here..." type="text" required>
+                        <button type="submit"><img src="img/magnifier.png" alt=""></button>
+                        <!-- </form> -->
                     </div>
                 </div>
             </div>
@@ -54,7 +59,26 @@
 
     </header>
 
-    <section class="digital_product">
+    <section class="create">
+        <div class="container">
+            <div class="create__inner">
+                <h2>Create Your Own</h2>
+                <h1>Digital Product Marketplace</h1>
+                <p>MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products</p>
+                <div class="create__btns">
+                    <a href="#">View All Products</a>
+                    <a href="#">Popular Products</a>
+                </div>
+                <form class="create__form" action="">
+                    <input placeholder="Search your products..." type="text">   
+                    <button class="category-btn">All Categories <img src="img/chevron-down.png" alt=""> </button>
+                    <button class="search-btn">Search Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="search">
 
     </section>
 
